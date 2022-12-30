@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+h1 {
+  color: black;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  color: #303841;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 24px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+.Weather {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #678eb4;
+  border-radius: 6px;
+}
+.App footer {
+  font-size: 11px;
+  text-align: center;
+}
